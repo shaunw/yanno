@@ -1,10 +1,8 @@
-/*<div class="yanno"></div>*/
 .yanno {
   position: fixed;
   left: 2%;
   bottom: 2%;
 }
-
 .yanno:after {
   content: "You're on nothing, yanno?";
   background: #333;
@@ -14,7 +12,6 @@
   color: #FFF;
   opacity: 0.5;
 }
-
 @media only screen and (min-width: @screen-xs-min) {
   .yanno:after {
     content: "You're on XS, yanno?";
