@@ -1,0 +1,37 @@
+/*<div class="yanno"></div>*/
+.yanno {
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+}
+
+.yanno:after {
+  content: "You're on nothing, yanno?";
+  background: #333;
+  border: 1px solid #555;
+  border-radius: 7px;
+  padding: .3em 1em;
+  color: #FFF;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: @screen-xs-min) {
+  .yanno:after {
+    content: "You're on XS, yanno?";
+  }
+}
+@media only screen and (min-width: @screen-sm-min) {
+  .yanno:after {
+    content: "You're on SM, yanno?";
+  }
+}
+@media only screen and (min-width: @screen-md-min) {
+  .yanno:after {
+    content: "You're on MD, yanno?";
+  }
+}
+@media only screen and (min-width: @screen-lg-min) {
+  .yanno:after {
+    content: "You're on LG, yanno?";
+  }
+}
