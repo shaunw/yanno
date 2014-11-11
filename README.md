@@ -1,7 +1,7 @@
 yanno
 ====
 
-you should know what boostrap breakpoint you're on, yanno?
+you should know what bootstrap breakpoint you're on, yanno?
 
 what bootstrap breakpoint am i on?
 ----
